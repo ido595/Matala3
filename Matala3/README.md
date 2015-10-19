@@ -1,4 +1,4 @@
-Assingment 3 - Software structs course
+Assingment 3 - Software structure course
 ====
 <p>
 
