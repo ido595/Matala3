@@ -1,3 +1,37 @@
+Assingment 3 - Software structs course
+====
+<p>
+
+Introduction
+----
+
+This was an assingment to implement an API of a hardware called "EyeTribe Dev Kit" (its jdk atached bellow), eith a simple game from us choice. 
+
+we found some open source code in git of a ball-breaker game, and implement remote the pad of the game with the eyes by the 'EyeTribe'. All the work was based on JAVA.
+
+
+Our Working
+----
+
+1) We creates a driver that get the eyes location (from the 'EyeTribe'), and insert it to the getX function in the ball-breaker game.
+
+2) After download the sdk of the 'EyeTribe' from GitHub, we built the main-Thread of the 'EyeTribe' camera, getting the eyes locations by a listener to the GazeManager of the 'EyeTribe'.
+
+3) The Gaze is running on the background, and gets the coordinate of the eyes location from 'EyeTribe', and "send" them to the getX function of the Pad in the game. this is made by the PadDriver, with function that getting the location and insert it into the function that determine the pad location.
+
+4) In the class pad, every instance of 'x' we replace with 'getX', and the getX was determined, as mentioned, to the data from the PadDriver that implements from the sdk.
+
+5) The location of the window of the game relative to screen using a java built-in function, to determine the 'x' location in the game according to the screen, because the 'EyeTribe' is given the location according to  the whole screen.
+
+6) Generaly, we used pure OOP when the pad is allways detemine by the functions, and the 'x' location is private data.
+
+
+
+
+
+
+
+
 Java SDK for the EyeTribe Dev Kit
 ====
 <p>
