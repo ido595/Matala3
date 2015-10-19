@@ -5,9 +5,9 @@ Assingment 3 - Software structure course
 Introduction
 ----
 
-This was an assingment to implement an API of a hardware called "EyeTribe Dev Kit" (its jdk atached bellow), eith a simple game from us choice. 
+This project is an assingment of our course. In which we implement an API of a hardware called "EyeTribe Dev Kit" (its jdk atached bellow), with a simple game by our choice. 
 
-we found some open source code in git of a ball-breaker game, and implement remote the pad of the game with the eyes by the 'EyeTribe'. All the work was based on JAVA.
+We found some open source code in git-hub of a ball-breaker game, and we implemented remote the pad of the game with the eyes by the 'EyeTribe'. All the work was based on JAVA.
 
 
 Our Working
